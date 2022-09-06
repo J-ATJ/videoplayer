@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.App{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+    background-color: #00000078;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+    margin: 0 60px;
+    width: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+    color: #61DAFB;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.bloc{
+    display: flex;
+    justify-content: space-around;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bloc h3{
+    color: #61dafb00;
+    font-family: 'orbitron';
+    font-size: 25px;
+    font-weight: 300;
+    margin:  auto;
+    padding: 2px;
+    width: 20%;
+} .bloc h3:hover{
+    color: #61dafb84;
+    cursor: pointer;
+}
+.videoPlayer{
+    background-color: #000000;
+    border: 7px solid #000000;
+    border-radius: 15px;
+    margin-top: 70px;
+    padding: 2px;
+}
+.input{
+    background-color: #110151;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    height: 30px;
+    margin-top: 70px;
+    padding: 0;
+    width: 640px;
 }
